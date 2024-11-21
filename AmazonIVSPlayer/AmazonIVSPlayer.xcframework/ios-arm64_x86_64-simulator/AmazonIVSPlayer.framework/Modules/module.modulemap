@@ -1,0 +1,11 @@
+framework module AmazonIVSPlayer {
+  umbrella header "AmazonIVSPlayer.h"
+  export *
+
+  module * { export * }
+}
+
+module AmazonIVSPlayer.Swift {
+  header "AmazonIVSPlayer-Swift.h"
+  requires objc
+}
